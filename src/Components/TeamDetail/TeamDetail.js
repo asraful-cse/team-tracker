@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import { Card } from 'react-bootstrap';
-import { Link, useParams } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faPodcast, faFlag, faFutbol, faTransgender } from '@fortawesome/free-solid-svg-icons'
 import './TeamDetails.css';
@@ -8,6 +7,7 @@ import logo from '../../images/logo.png';
 import icon1 from '../../icon/Twitter.png';
 import icon2 from '../../icon/Facebook.png';
 import icon3 from '../../icon/YouTube.png';
+import { useParams } from 'react-router';
 const TeamDetail = () => {
     const { teamId } = useParams();
     const [details, setDetails] = useState([]);

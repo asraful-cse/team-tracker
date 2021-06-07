@@ -9,7 +9,7 @@ import {
 import Home from './Components/Home/Home';
 import TeamDetail from './Components/TeamDetail/TeamDetail';
 import NoMatch from './Components/NoMatch/NoMatch';
-
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
